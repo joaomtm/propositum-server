@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Propositum — MVP</title>
+  <link rel="stylesheet" href="./styles/main.css" />
+
+  <!-- Fonte -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+  </style>
+</head>
+<body>
+  
+  <!-- Cabeçalho -->
+  <header class="topbar">
+    <div class="brand">
+      <img src="assets/img/logo_propositum.png" alt="Logo Propositum" />
+    </div>
+
+    <div class="accessibility-controls">
+      <button id="increase-font" aria-label="Aumentar tamanho da fonte">A+</button>
+      <button id="decrease-font" aria-label="Diminuir tamanho da fonte">A-</button>
+      <button id="toggle-contrast" aria-label="Ativar ou desativar alto contraste">Contraste</button>
+      <button class="settings-btn" aria-label="Abrir configurações">
+        <img src="assets/img/configuracoes_botao.png" alt="Configurações" />
+      </button>
+    </div>
+  </header>
+
+  <!-- Container centralizado -->
+  <div class="container">
+
+    <!-- Imagem central -->
+    <div class="center-image">
+      <img src="assets/img/pergunte_ao_propositum.png" alt="Texto: Pergunte ao Propositum" />
+    </div>
+
+    <!-- Input do chat -->
+    <form class="chat-input">
+      <label for="user-question" class="sr-only">Digite sua pergunta</label>
+      <input id="user-question" type="text" placeholder="Digite sua pergunta..." />
+      <button type="submit">Enviar</button>
+    </form>
+
+  </div>
+
+  <!-- Conexão com script -->
+  <script src="./scripts/main.js"></script>
+</body>
+</html>
