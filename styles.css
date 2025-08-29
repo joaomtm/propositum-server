@@ -110,8 +110,8 @@ footer { position:fixed; bottom:0; left:0; width:100%; padding:15px 20px; backgr
   filter: contrast(var(--contrast-image));
   transition: filter 0.25s ease;
 }
-.image-left { left:50px; width:300px; top:56%; }
-.image-right { right:-30px; width:500px; top:60%; }
+.image-left { left:50px; width:270px; top:56%; }
+.image-right { right:-30px; width:450px; top:60%; }
 
 /* Modal (bem simples para não quebrar layout) */
 .modal {
