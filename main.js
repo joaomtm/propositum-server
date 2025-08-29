@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
     msg.classList.add("message", sender);
     msg.innerHTML = sender === "user"
       ? `<strong>Você:</strong><br>${escapeHtml(text)}`
-      : `<strong>Propositum:</strong><br>Olá, me chamo Propositum! Infelizmente essa versão do MVP ainda não me dá capacidades de responde-lo!`;
+      : `<strong>Propositum:</strong><br>Olá, me chamo Propositum! Infelizmente essa versão do MVP ainda não me dá capacidades de respondê-lo!`;
 
     wrapper.appendChild(msg);
     chatContainer.appendChild(wrapper);
